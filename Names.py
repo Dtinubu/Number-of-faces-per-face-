@@ -20,7 +20,7 @@ for klass, name in enumerate(names):
         pic_dir = len(os.listdir(image_path))
         number_of_pic+= Pic_dir
         temp.append(Pic_dir)
-        count++
+        count=+1
                   
 		
 data=temp
