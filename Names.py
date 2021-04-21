@@ -14,7 +14,7 @@ count=0
 temp=[]
 images_root = os.path.join('/cmlscratch','dtinubu','datasets','RFW','Balancedface','race_per_7000', args.race)
 names = os.listdir(images_root)
-    for klass, name in enumerate(names):
+for klass, name in enumerate(names):
 	image_path = os.path.join(images_root, name)
 	images_of_person = os.listdir(os.path.join(images_root, name))
         Pic_dir=len(os.listdir( image_path))
@@ -23,10 +23,10 @@ names = os.listdir(images_root)
         Count++
                   
 		
-	data=temp
-	plt.boxplot(data)
-	print(count)
-	print(Number_of_pic/count)
-	print("median" + statistics.median(data))
-	print("mode"statistics.mode(data))
-	plt.show()
+data=temp
+plt.boxplot(data)
+print(count)
+print(Number_of_pic/count)
+print("median" + statistics.median(data))
+print("mode"statistics.mode(data))
+plt.show()
