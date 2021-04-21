@@ -23,7 +23,7 @@ for klass, name in enumerate(names):
         temp.append(pic_dir)
         count= count + 1
                   
-		
+data=temp		
 np.sort(data)
 plt.plot(data)
 plt.show()
