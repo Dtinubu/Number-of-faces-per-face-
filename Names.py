@@ -24,7 +24,7 @@ for klass, name in enumerate(names):
         count= count + 1
                   
 data=temp		
-datat=np.sort(data)
+data=np.sort(data)
 plt.plot(data)
 plt.show()
 plt.savefig(args.race + '_spread.png')
