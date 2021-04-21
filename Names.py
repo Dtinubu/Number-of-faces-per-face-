@@ -28,7 +28,7 @@ data=temp
 plt.boxplot(data)
 plt.show()
 print(count)
-plt.savefig(args.race+'_spread.png')
+plt.savefig(args.race + '_spread.png')
 print("mean " + str(statistics.mean(data))
 print("median " + str(statistics.median(data)))
 print("mode "+ str(statistics.mode(data)))
