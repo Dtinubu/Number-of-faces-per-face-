@@ -26,11 +26,12 @@ for klass, name in enumerate(names):
 		
 data=temp
 plt.boxplot(data)
+plt.show()
 plt.savefig(args.race + '_spreadBP.png')
-plt.show()
+
 plt.plot(data)
-plt.savefig(args.race + '_spread.png')
 plt.show()
+plt.savefig(args.race + '_spread.png')
 print("mean " + str(statistics.mean(data)))
 print("median " + str(statistics.median(data)))
 print("mode "+ str(statistics.mode(data)))
