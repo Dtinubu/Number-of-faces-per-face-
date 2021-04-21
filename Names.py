@@ -27,4 +27,4 @@ for race in Races:
             data=np.sort(data)
             plt.plot(data, label = race)
 	
-plt.savefig(race + '_spread.png')
+plt.savefig('data.png')
