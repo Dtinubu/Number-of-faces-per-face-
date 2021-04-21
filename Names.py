@@ -12,7 +12,7 @@ number_of_pic = 0
 count=0
 
 Races =  ('Caucasian','Indian','Asian','African')
-for race in zip(Races):
+for race in Races:
             images_root = os.path.join('/cmlscratch','dtinubu','datasets','RFW','Balancedface','race_per_7000', race)
             temp=[]
             names = os.listdir(images_root)
