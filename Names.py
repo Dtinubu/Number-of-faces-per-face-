@@ -18,8 +18,8 @@ for klass, name in enumerate(names):
         image_path = os.path.join(images_root, name)
         images_of_person = os.listdir(os.path.join(images_root, name))
         pic_dir = len(os.listdir(image_path))
-        number_of_pic+= Pic_dir
-        temp.append(Pic_dir)
+        number_of_pic+= pic_dir
+        temp.append(pic_dir)
         count=+1
                   
 		
