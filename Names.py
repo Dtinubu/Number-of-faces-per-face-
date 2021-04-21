@@ -29,7 +29,7 @@ plt.boxplot(data)
 plt.show()
 print(count)
 plt.savefig(args.race+'_spread.png')
-print("mean " + statistics.mean(data)
+print("mean " + str(statistics.mean(data))
 print("median " + str(statistics.median(data)))
 print("mode "+ str(statistics.mode(data)))
 
