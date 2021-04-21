@@ -27,7 +27,7 @@ for klass, name in enumerate(names):
 data=temp
 plt.boxplot(data)
 plt.show()
-print("mean " + str(statistics.mean(data))
+print("mean " + str(statistics.mean(data)))
 print("median " + str(statistics.median(data)))
 print("mode "+ str(statistics.mode(data)))
 plt.savefig(args.race + '_spread.png')
