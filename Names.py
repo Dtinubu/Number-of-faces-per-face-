@@ -24,11 +24,7 @@ for klass, name in enumerate(names):
         count= count + 1
                   
 		
-data=temp
-plt.boxplot(data)
-plt.show()
-plt.savefig(args.race + '_spreadBP.png')
-
+np.sort(data)
 plt.plot(data)
 plt.show()
 plt.savefig(args.race + '_spread.png')
