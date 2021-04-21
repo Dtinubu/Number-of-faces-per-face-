@@ -26,7 +26,6 @@ for klass, name in enumerate(names):
 data=temp		
 data=np.sort(data)
 plt.plot(data)
-plt.show()
 plt.savefig(args.race + '_spread.png')
 print("mean " + str(statistics.mean(data)))
 print("median " + str(statistics.median(data)))
