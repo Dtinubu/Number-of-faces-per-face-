@@ -28,6 +28,6 @@ data=temp
 plt.boxplot(data)
 print(count)
 print(number_of_pic/count)
-print("median" + statistics.median(data))
-print("mode"+ statistics.mode(data))
+print("median" + str(statistics.median(data)))
+print("mode"+ str(statistics.mode(data)))
 plt.show()
