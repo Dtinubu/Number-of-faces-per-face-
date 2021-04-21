@@ -12,7 +12,7 @@ number_of_pic = 0
 count=0
 
 Races =  ('Caucasian','Indian','Asian','African')
-         for race in zip(Races):
+for race in zip(Races):
             images_root = os.path.join('/cmlscratch','dtinubu','datasets','RFW','Balancedface','race_per_7000', race)
             temp=[]
             names = os.listdir(images_root)
@@ -24,7 +24,7 @@ Races =  ('Caucasian','Indian','Asian','African')
                 temp.append(pic_dir)
                 count= count + 1
             data=temp
-	    data=np.sort(data)
+            data=np.sort(data)
             plt.plot(data, label = race)
 	
 plt.savefig(race + '_spread.png')
