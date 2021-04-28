@@ -22,9 +22,10 @@ for race in Races:
                 pic_dir = len(os.listdir(image_path))
                 number_of_pic+= pic_dir
                 temp.append(pic_dir)
-                count= count + 1
+            count= count + 1
             data=temp
             data=np.sort(data)
-            plt.plot(data, y1, label = race)
-	
+            plt.plot(data,label = race)
+            plt.legend()
+
 plt.savefig('data.png')
