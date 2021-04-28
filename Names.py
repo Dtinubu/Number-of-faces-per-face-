@@ -25,6 +25,6 @@ for race in Races:
                 count= count + 1
             data=temp
             data=np.sort(data)
-            plt.plot(data, label = race)
+            plt.plot(data, y1, label = race)
 	
 plt.savefig('data.png')
